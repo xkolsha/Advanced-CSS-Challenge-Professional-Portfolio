@@ -1,28 +1,252 @@
+/* Color theme:
+#221F33 - primary (dark)
+#2D294A - accent
+#534C8A - grey
+#8F83ED - secondary (light)
+#FBF8FF - white
+*/
+
 html {
     font-size: 16px;
+    height: 100svh;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
+    display: block;
+    background-color: #fbf8ff;
+    font-family: aileron, sans-serif;
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: normal;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.5em;
 }
 
-/* Media query for mobile portrait*/
-@media only screen and (max-width: 478px) {
-    body {}
+.nav-main {
+    background-color: #fbf8ff;
+    padding: 1.5em 0;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 0 8px #221f33;
 }
 
-/* Media query for mobile landscape*/
-@media only screen and (max-width: 767px) {
-    body {}
+.nav-wrapper {
+    max-width: 90em;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
-/* Media query for tablet*/
-@media only screen and (max-width: 991px) {
-    body {}
+.header-logo {
+    max-width: 12.5em;
 }
 
-/* Media query for desktop*/
-@media only screen and (min-width: 991px) {
-    body {}
+.navbar-links {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links ul li {
+    margin-right: 1em;
+    padding: 0 1em;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+.navbar-links ul li a:hover {
+    cursor: pointer;
+    color: #8F83ED;
+}
+
+.center-content {
+    max-width: 90em;
+    margin: 0 auto;
+}
+
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+#hero {
+    padding: 16em 0 22em 0;
+}
+
+#hero h1 {
+    max-width: 54rem;
+    margin-bottom: 0.5em;
+    line-height: 1.125em;
+}
+
+#hero h2 {
+    max-width: 45rem;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.button-primary {
+    background-color: #221f33;
+    border-radius: 22px;
+    justify-content: center;
+    padding: 1.625em 2.375em;
+    border: 0px;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+}
+
+.button-primary a {
+    color: #fbf8ff;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button-primary:hover {
+    background-color: #8F83ED;
+}
+
+.button-primary:hover a {
+    color: #221F33;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.display-1 {
+    font-weight: 700;
+    font-size: 5.75rem;
+}
+
+.display-2 {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.display-3 {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.display-4 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.paragraph-large {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+/* Media query for mobile portrait */
+@media only screen and (max-width: 30em) {
+    .display-1 {
+        font-size: 2.5rem;
+    }
+
+    .display-2 {
+        font-size: 2.25rem;
+    }
+
+    .display-3 {
+        font-size: 1.5rem;
+    }
+
+    .display-4 {
+        font-size: 1rem;
+    }
+
+    .paragraph-large {
+        font-size: 1rem;
+    }
+}
+
+/* Media query for mobile landscape */
+@media only screen and (max-width: 48em) and (orientation: landscape) {
+    .display-1 {
+        font-size: 4rem;
+    }
+
+    .display-2 {
+        font-size: 2.5rem;
+    }
+
+    .display-3 {
+        font-size: 1.75rem;
+    }
+
+    .display-4 {
+        font-size: 1rem;
+    }
+
+    .paragraph-large {
+        font-size: 1rem;
+    }
+}
+
+/* Media query for tablet */
+@media only screen and (max-width: 61em) {
+    .display-1 {
+        font-size: 4.5rem;
+    }
+
+    .display-2 {
+        font-size: 3rem;
+    }
+
+    .display-3 {
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        font-size: 1.125rem;
+    }
+
+    .paragraph-large {
+        font-size: 1.125rem;
+    }
+}
+
+/* Media query for desktop */
+@media only screen and (min-width: 62em) {
+    .display-1 {
+        font-size: 5.75rem;
+    }
+
+    .display-2 {
+        font-size: 3.5rem;
+    }
+
+    .display-3 {
+        font-size: 2.2rem;
+    }
+
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .paragraph-large {
+        font-size: 1.5rem;
+    }
 }
