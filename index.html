@@ -6,74 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/irs8rxi.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Aviad Kohn Professional Web Developer and UX/UI Designer</title>
 </head>
 
 <body class="body">
-    <header class="nav-main">
+    <header class="nav-main" role="banner">
         <div class="nav-wrapper">
             <div class="header-left">
                 <a href="index.html" aria-label="Home"><img src="./assets/images/nav-logo.png" alt="logo"
                         class="header-logo"></a>
             </div>
-            <div class="header-middle">
-                <nav id="navbar" role="navigation">
-                    <ul>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header-right"> <button class="button-primary"><a href="#contact-me">Contact Me</a></button>
+            <nav class="navbar-links" role="navigation">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="header-right"> <a href="#contact-me" class="button-primary">Contact Me</a>
             </div>
         </div>
     </header>
-    <main>
+    <main class="center-content">
         <section id="hero" class="top-section">
             <div class="content-wrapper">
-
+                <h1 class="display-1">Web Developer, Graphic Designer &amp; UXUI.</h1>
+                <h2 class="display-4">From Concept to Completion - Let me Help You Turn Your Vision into a
+                    Reality!
+                </h2>
+                <a href="#contact-me" class="button-primary">Contact Me</a>
             </div>
         </section>
         <section id="services" class="section-page">
             <div class="content-wrapper">
-                <h2 class="display-2">Services</h2>
-                <div class="grid-asymmetric">
-                    <div class="grid-item">
-                        <img src="./assets/images/UXUI.png" alt="high-fidelity wireframe" class="img-gird">
+                <h2 class="display-2 center-items mg-bottom-1em">Services</h2>
+                <h3 class="display-4 center-items mg-bottom-2em">Find the Right Solution for Your Business Needs
+                </h3>
+                <div class="grid-layout">
+                    <div class="grid-item light-card">
+                        <img src="./assets/images/UXUI.png" alt="high-fidelity wireframe" class="grid-img">
                         <h2 class="display-3">Web Design & Development</h2>
-                        <p class="paragraph-large">Web Design & Development is the perfect way to give your business
+                        <p class="paragraph-large">Web Design & Development is the perfect way to give your
+                            business
                             the digital presence it deserves. You can expect personalized and customized designs and
                             development solutions that cater to your needs. Get an edge over your competitors with
                             my innovative and creative web design and development approaches. Let me help you make a
                             lasting impression online with a fantastic website!</p>
                     </div>
-                    <div class="grid-item">
+                    <div class="grid-item light-card mg-top-4em">
                         <img src="./assets/images/Graphic-design.png" alt="a woman pointing to a smartphone"
-                            class="img-gird">
+                            class="grid-img">
                         <h2 class="display-3">Graphic Design</h2>
-                        <p class="paragraph-large">Every business has a unique identity. I will work closely with you to
+                        <p class="paragraph-large text-center">Every business has a unique identity. I will work
+                            closely with you to
                             create a visual identity that perfectly represents your brand. I design original logos,
                             business cards, envelopes, catalogues, labels, brochures, posters, calendars, and more. From
                             concept to completion, I will ensure that your design stands out and effectively showcases
                             your brand. Don't settle for generic designs. Contact me today to create your business's
                             unique and memorable visual identity.</p>
                     </div>
-                    <div class="grid-item">
-                        <img src="./assets/images/Branding.png" alt="a man in a cape" class="img-gird">
+                    <div class="grid-item light-card">
+                        <img src="./assets/images/Branding.png" alt="a man in a cape" class="grid-img">
                         <h2 class="display-3">Branding</h2>
-                        <p class="paragraph-large">Investing in your business branding is how you outperform and outlast
+                        <p class="paragraph-large text-center">Investing in your business branding is how you outperform
+                            and outlast
                             your competitors. The goal is to attract and retain loyal customers by delivering a product
                             that always aligns with the brand's promises. Keep your competition from getting ahead -
                             Contact me today and let me help you create a solid and consistent brand that will set you
                             apart from the rest.</p>
                     </div>
-                    <div class="grid-item">
-                        <img src="./assets/images/Video.png" alt="a video editor is working" class="img-gird">
+                    <div class="grid-item light-card mg-top-4em">
+                        <img src="./assets/images/Video.png" alt="a video editor is working" class="grid-img">
                         <h2 class="display-3">Video Editing</h2>
-                        <p class="paragraph-large">Elevate your visual content with my professional video editing
+                        <p class="paragraph-large text-center">Elevate your visual content with my professional video
+                            editing
                             services. I'll collaborate with you to bring your film or corporate video ideas to life,
                             offering services such as colour correction, sound design, motion graphics, and more.
                             Contact me to deliver engaging, high-quality videos that will leave a lasting impression on
@@ -83,18 +92,19 @@
             </div>
         </section>
         <section id="about" class="section-page">
-            <div class="content-wrapper">
-                <article class="content-left">
-                    <h2 class="display-2">How I’m different</h2>
+            <div class="content-wrapper-2">
+                <article class="content-text">
+                    <h2 class="display-2 mg-bottom-1em">How I’m different</h2>
                     <p class="paragraph-large">After careers in the security and defence industries, I followed my
                         passion for IT and creative services. I've helped businesses reach their goals through IT
                         support, management, and design projects. I'm focused on overseeing projects from concept
                         through final delivery.<br><br>Throughout my career, I have contributed to positive business
-                        results through effective organization, prioritization, and execution of critical projects. My
+                        results through effective organization, prioritization, and execution of critical projects.
+                        My
                         experience as a defence veteran gave me a broad vision of others' needs while respecting and
                         valuing cultural diversity.</p>
                 </article>
-                <img src="./assets/images/20180915_05767-Large-p-1080.jpg">
+                <img src="./assets/images/20180915_05767-Large-p-1080.jpg" class="img-about">
             </div>
         </section>
         <section id="portfolio" class="section-page">
