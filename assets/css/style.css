@@ -8,8 +8,9 @@
 */
 
 html {
-    font-size: 16px;
+    font-size: 18px;
     height: 100svh;
+    width: 100svw;
 }
 
 * {
@@ -36,6 +37,7 @@ body {
     top: 0px;
     box-shadow: 0 0 8px #221f33;
     z-index: 999;
+    width: 100svw;
 }
 
 .nav-wrapper {
@@ -99,7 +101,7 @@ body {
 }
 
 #hero {
-    padding: 16em 0 22em 0;
+    padding: 4em 0 8em 0;
 }
 
 #hero h1 {
