@@ -186,7 +186,7 @@ body {
     max-width: 15rem;
 }
 
-.content-wrapper-2 {
+.flex-between-center {
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -211,21 +211,25 @@ body {
 .display-1 {
     font-weight: 700;
     font-size: 5.75rem;
+    line-height: normal;
 }
 
 .display-2 {
     font-weight: 700;
     font-size: 3.5rem;
+    line-height: normal;
 }
 
 .display-3 {
     font-weight: 700;
     font-size: 2.2rem;
+    line-height: normal;
 }
 
 .display-4 {
     font-weight: 300;
     font-size: 1.5rem;
+    line-height: normal;
 }
 
 .paragraph-large {
@@ -234,94 +238,132 @@ body {
     line-height: 1.5em;
 }
 
-/* Media query for mobile portrait */
-@media only screen and (max-width: 30em) {
+
+
+
+/* Media query for desktop */
+@media only screen and (min-width: 62em) {
+    html {
+        font-size: 18px;
+    }
+
     .display-1 {
-        font-size: 2.5rem;
+        font-size: 5.75rem;
+        line-height: normal;
     }
 
     .display-2 {
-        font-size: 2.25rem;
+        font-size: 3.5rem;
+        line-height: normal;
     }
 
     .display-3 {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+
+    .display-4 {
         font-size: 1.5rem;
-    }
-
-    .display-4 {
-        font-size: 1rem;
+        line-height: normal;
     }
 
     .paragraph-large {
-        font-size: 1rem;
-    }
-}
-
-/* Media query for mobile landscape */
-@media only screen and (max-width: 48em) and (orientation: landscape) {
-    .display-1 {
-        font-size: 4rem;
-    }
-
-    .display-2 {
-        font-size: 2.5rem;
-    }
-
-    .display-3 {
-        font-size: 1.75rem;
-    }
-
-    .display-4 {
-        font-size: 1rem;
-    }
-
-    .paragraph-large {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 /* Media query for tablet */
 @media only screen and (max-width: 61em) {
+    html {
+        font-size: 18px;
+    }
+
     .display-1 {
         font-size: 4.5rem;
+        line-height: normal;
     }
 
     .display-2 {
         font-size: 3rem;
+        line-height: normal;
     }
 
     .display-3 {
         font-size: 2rem;
+        line-height: normal;
     }
 
     .display-4 {
         font-size: 1.125rem;
+        line-height: normal;
     }
 
     .paragraph-large {
         font-size: 1.125rem;
+        line-height: normal;
     }
 }
 
-/* Media query for desktop */
-@media only screen and (min-width: 62em) {
+/* Media query for mobile landscape */
+@media only screen and (max-width: 48em) and (orientation: landscape) {
+    html {
+        font-size: 16px;
+    }
+
     .display-1 {
-        font-size: 5.75rem;
+        font-size: 4rem;
+        line-height: normal;
     }
 
     .display-2 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+        line-height: normal;
     }
 
     .display-3 {
-        font-size: 2.2rem;
+        font-size: 1.75rem;
+        line-height: normal;
     }
 
     .display-4 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        line-height: normal;
     }
 
     .paragraph-large {
+        font-size: 1rem;
+        line-height: normal;
+    }
+}
+
+/* Media query for mobile portrait */
+@media only screen and (max-width: 30em) {
+    html {
+        font-size: 16px;
+    }
+
+    .display-1 {
+        font-size: 2.5rem;
+        line-height: normal;
+    }
+
+    .display-2 {
+        font-size: 2.25rem;
+        line-height: normal;
+    }
+
+    .display-3 {
         font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .display-4 {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .paragraph-large {
+        font-size: 1rem;
+        line-height: normal;
     }
 }
