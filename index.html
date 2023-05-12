@@ -17,6 +17,8 @@
             <div class="header-left">
                 <a href="index.html" aria-label="Home"><img src="./assets/images/nav-logo.png" alt="logo"
                         class="header-logo"></a>
+                <a href="index.html" aria-label="Home"><img src="./assets/images/Original ArtTrans.png"
+                        alt="mobile-logo" class="header-logo-mobile"></a>
             </div>
             <nav class="navbar-links" role="navigation">
                 <ul>
@@ -94,8 +96,9 @@
         <section id="about" class="section-page">
             <div class="content-wrapper flex-between-center">
                 <article class="content-text">
-                    <h2 class="display-2 mg-bottom-1em">How I’m different</h2>
-                    <p class="paragraph-large">After careers in the security and defence industries, I followed my
+                    <h2 class="display-2 mg-bottom-1em width-40">How I’m different</h2>
+                    <p class="paragraph-large">After careers in the security and defence industries, I
+                        followed my
                         passion for IT and creative services. I've helped businesses reach their goals through IT
                         support, management, and design projects. I'm focused on overseeing projects from concept
                         through final delivery.<br><br>Throughout my career, I have contributed to positive business
@@ -110,32 +113,32 @@
         <section id="portfolio" class="section-page">
             <div class="content-wrapper">
                 <article class="center-content">
-                    <h2 class="display-2">Portfolio</h2>
-                    <p class="paragraph-large">I worked passionately to impress my potential clients by paying attention
-                        to every little detail.</p>
+                    <h2 class="display-2  center-items mg-bottom-1em">Portfolio</h2>
+                    <h3 class="display-4 center-items mg-bottom-2em">I worked passionately to impress my potential clients by paying attention
+                        to every little detail.</h3>
                     <div class="grid-layout">
                         <div class="grid-item light-card">
                             <figure>
-                                <img src="image.jpg" alt="Mockup" class="grid-img">
-                                <figcaption>Project name</figcaption>
+                                <img src="./assets/images/Education.jpg" alt="Card mockup" class="grid-img-100 radius-3">
+                                <figcaption class="display-4 center-items">Branding for Education Transform</figcaption>
                             </figure>
                         </div>
                         <div class="grid-item light-card">
                             <figure>
-                                <img src="image.jpg" alt="Mockup" class="grid-img">
-                                <figcaption>Project name</figcaption>
+                                <img src="./assets/images/GMS.jpg" alt="Video preview" class="grid-img-100 radius-3">
+                                <figcaption class="display-4 center-items">Promotional video for G.M.S. Technology Ltd</figcaption>
                             </figure>
                         </div>
                         <div class="grid-item light-card">
                             <figure>
-                                <img src="image.jpg" alt="Mockup" class="grid-img">
-                                <figcaption>Project name</figcaption>
+                                <img src="./assets/images/Beacon.jpg" alt="App mockup" class="grid-img-100 radius-3">
+                                <figcaption class="display-4 center-items">Case Study for Beacon App</figcaption>
                             </figure>
                         </div>
                         <div class="grid-item light-card">
                             <figure>
-                                <img src="image.jpg" alt="Mockup" class="grid-img">
-                                <figcaption>Project name</figcaption>
+                                <img src="./assets/images/Harmony.png" alt="Branding guide mockup" class="grid-img-100 radius-3">
+                                <figcaption class="display-4 center-items">Branding for Harmony Construction Consultant</figcaption>
                             </figure>
                         </div>
                     </div>
@@ -144,11 +147,43 @@
         </section>
         <section id="contact-me" class="section-page">
             <div class="content-wrapper">
-
+                <h2 class="display-2  center-items mg-bottom-1em">Get in touch</h2>
+                    <h3 class="display-4 center-items mg-bottom-2em">Contact Me. I'll be happy to help!</h3>
+                <div class="flex-between-center light-card">
+                    <form>
+                        <fieldset class="grid-layout">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" maxlength="256" name="name" data-name="Name" placeholder="Oliver Smith" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" maxlength="256" name="email" data-name="Email" placeholder="example@email.com" required>
+                            </div>
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input type="tel" maxlength="256" name="phone" data-name="Phone" placeholder="(123) 456 - 789" required>
+                            </div>
+                            <div>
+                                <label for="subject">Subject</label>
+                                <input type="text" maxlength="256" name="subject" data-name="Subject" placeholder="ex. Project">
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea name="message" data-name="Message" placeholder="Please type your message here..." maxlength="5000" required></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Send Message" data-wait="Please wait...">
+                            </div>
+                        </fieldset>
+                    </form>
+                    
+                    
+                </div>
             </div>
         </section>
     </main>
-    <footer id="footer">
+    <footer id="footer" class="display-4 center-items">
         <p>
             &copy; 2023 Aviad Kohn
         </p>
