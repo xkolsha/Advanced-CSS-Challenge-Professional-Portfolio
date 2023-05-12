@@ -202,6 +202,15 @@ body {
     max-width: 100%;
 }
 
+.portfolio-project {
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-project:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .flex-between-center {
     justify-content: space-between;
     align-items: center;
@@ -301,6 +310,64 @@ body {
     }
     
 }
+.button-secondary{
+    display: inline-block;
+    background-color: #8F83ED;
+    border-radius: 1.375em;
+    justify-content: center;
+    padding: 1.625em 2.375em;
+    border: 0px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    color: #221F33;
+    text-decoration: none;
+}
+
+.button-secondary:hover {
+    background-color: #8F83ED;
+    cursor: pointer;
+    color: #FBF8FF;
+}
+
+.dark-bg{
+    background-color: #2D294A;
+}
+form {
+    width: 100%;
+}
+
+form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+    color: #FBF8FF;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #221F33;
+    border-radius: 1.375em;
+    font-size: 1rem;
+    color: #221F33;
+    background-color: #FBF8FF;
+    transition: border-color 0.3s ease;
+}
+
+
+
+form textarea {
+    resize: vertical;
+    min-height: 6em;
+}
+
 
 /* Media query for tablet */
 @media only screen and (max-width: 61em) {
