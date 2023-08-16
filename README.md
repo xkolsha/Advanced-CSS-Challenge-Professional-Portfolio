@@ -12,54 +12,58 @@ With these points in mind, in this Challenge you'll set yourself up for future s
 - [How to Complete the Challenge](#how-to-complete-the-challenge)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Mock Up](#mock-up)
+- [Deployment](#deployment)
 - [Credits](#credits)
 - [License](#license)
 
-## How to Complete the Challenge
-
-- The URL of the deployed application.
-- The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
 ## User Story
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+- **AS AN** employer
+- **I WANT** to view a potential employee's deployed portfolio of work samples
+- **SO THAT** I can review samples of their work and assess whether they're a good candidate for an open position
+
+## How to Complete the Challenge
+
+- Visit the deployed application using the provided URL.
+- Browse through the application to understand its functionalities.
+- Refer to the GitHub repository for code details.
 
 ## Acceptance Criteria
 
-- GIVEN I need to sample a potential employee's previous work
-- WHEN I load their portfolio
-- THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-- WHEN I click one of the links in the navigation
-- THEN the UI scrolls to the corresponding section
-- WHEN I click on the link to the section about their work
-- THEN the UI scrolls to a section with titled images of the developer's applications
-- WHEN I am presented with the developer's first application
-- THEN that application's image should be larger in size than the others
-- WHEN I click on the images of the applications
-- THEN I am taken to that deployed application
-- WHEN I resize the page or view the site on various screens and devices
-- THEN I am presented with a responsive layout that adapts to my viewport
+- **GIVEN I** need to sample a potential employee's previous work
+- **WHEN I** load their portfolio
+- **THEN I** am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+- **WHEN I** click one of the links in the navigation
+- **THEN** the UI scrolls to the corresponding section
+- **WHEN I** click on the link to the section about their work
+- **THEN** the UI scrolls to a section with titled images of the developer's applications
+- **WHEN I** am presented with the developer's first application
+- **THEN** that application's image should be larger in size than the others
+- **WHEN I** click on the images of the applications
+- **THEN I** am taken to that deployed application
+- **WHEN I** resize the page or view the site on various screens and devices
+- **THEN I** am presented with a responsive layout that adapts to my viewport
 
 ## Mock Up
 
 ![Mock up of the website](./assets/images/Web%20capture_12-5-2023_0357_xkolsha.github.io.jpeg)
 
+## Deployment
+
+- **Pages**: [Aviad Kohn Portfolio on Pages](https://xkolsha.github.io/Advanced-CSS-Challenge-Professional-Portfolio/)
+- **GitHub Repo**: [Aviad Kohn Portfolio Repository](https://github.com/xkolsha/Advanced-CSS-Challenge-Professional-Portfolio)
+
 ## Credits
 
-- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-- https://developer.mozilla.org/en-US/docs/Web/CSS/grid
-- https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
-- http://meyerweb.com/eric/tools/css/reset/
-- https://courses.bootcampspot.com/ (Challenge description)
-- https://www.youtube.com/@KevinPowell
+- [`Professional README Guide`](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [`Challenge description`](https://courses.bootcampspot.com)
+- [`Deploy with Heroku and MySQL`](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ## License
 
 MIT License
 
-Copyright (c) 2023 xkolsha
+Copyright (c) 2023 [`Aviad Kohn`](https://github.com/xkolsha)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
