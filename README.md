@@ -50,7 +50,7 @@ With these points in mind, in this Challenge you'll set yourself up for future s
 
 ## Deployment
 
-- **Pages**: [Aviad Kohn Portfolio on Pages](https://xkolsha.github.io/Advanced-CSS-Challenge-Professional-Portfolio/)
+- **Pages**: [Aviad Kohn Portfolio on Pages](https://xkolsha.github.io/Professional-Portfolio/)
 - **GitHub Repo**: [Aviad Kohn Portfolio Repository](https://github.com/xkolsha/Advanced-CSS-Challenge-Professional-Portfolio)
 
 ## Credits
